@@ -1,7 +1,7 @@
-const app = require('/server/app');
+const app = require('./server/app');
 const cloudinary = require('cloudinary');
 
-const connectDatabase = require('/server/config/database')
+const connectDatabase = require('./server/config/database')
 
 //config
 if(process.env.NODE_ENV!=="PRODUCTION"){
