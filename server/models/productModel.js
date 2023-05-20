@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+mongoose.set('strictQuery', false);
 // const { type } = require('os');
 
 const productSchema = new mongoose.Schema({
